@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="492.0" prefWidth="618.0">
+         <children>
+            <Button fx:id="Button_add" layoutX="14.0" layoutY="436.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="74.0" text="Добавить" />
+            <Button fx:id="Button_delete" layoutX="280.0" layoutY="436.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="74.0" text="Удалить" />
+            <Button fx:id="Button_change" layoutX="360.0" layoutY="436.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="74.0" text="Изменить" />
+            <TableView fx:id="TableView" prefHeight="410.0" prefWidth="440.0">
+              <columns>
+                <TableColumn fx:id="TableColumn" prefWidth="447.1999877691269" text="Транспорт" />
+              </columns>
+            </TableView>
+            <ComboBox fx:id="ComboBox" layoutX="105.0" layoutY="436.0" prefWidth="150.0" />
+            <RadioButton fx:id="RadioButton_String" layoutX="455.0" layoutY="23.0" mnemonicParsing="false" text="Строковый" />
+            <RadioButton fx:id="RadioButton_XML" layoutX="455.0" layoutY="104.0" mnemonicParsing="false" text="XML" />
+            <RadioButton fx:id="RadioButton_Binary" layoutX="455.0" layoutY="64.0" mnemonicParsing="false" text="Бинарный" />
+            <Button fx:id="Button_Save" layoutX="452.0" layoutY="136.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" text="Сохранить" />
+            <Button fx:id="Button_Load" layoutX="452.0" layoutY="180.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" text="Загрузить" />
+            <ChoiceBox fx:id="ChoiceBox" layoutX="452.0" layoutY="258.0" prefWidth="150.0" />
+            <Label layoutX="463.0" layoutY="229.0" prefHeight="17.0" prefWidth="129.0" text="Выберите плагин" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>

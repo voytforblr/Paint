@@ -1,0 +1,41 @@
+------------------------------------------------------------------------
+    Машина
+ class sample.transport.Car
+ power double 120.0 
+ maxSpeed double 180.0 
+ numOfSeats int 4 
+------------------------------------------------------------------------
+    Автобус
+ class sample.transport.Bus
+ timetable class java.lang.String 19.00-20.30 
+ power double 220.0 
+ maxSpeed double 110.0 
+ numOfSeats int 6666 
+------------------------------------------------------------------------
+    Корабль
+ class sample.transport.Ship
+ numberOfCrew int 20 
+///////////////////////////////////////
+ class sample.transport.Captain
+ name class java.lang.String Инокентий 
+ age int 52 
+ yearsOfExperience int 17 
+///////////////////////////////////////
+ power double 8500.0 
+ maxSpeed double 40.0 
+ numOfSeats int 20 
+------------------------------------------------------------------------
+   Такси
+ class sample.transport.Taxi
+ companyOfTaxi class java.lang.String Яндекс 
+ power double 130.0 
+ maxSpeed double 120.0 
+ numOfSeats int 3 
+------------------------------------------------------------------------
+   Самолёт
+ class sample.transport.Plane
+ lengthOfWing double 5.0 
+ power double 2300.0 
+ maxSpeed double 950.0 
+ numOfSeats int 48 
+------------------------------------------------------------------------

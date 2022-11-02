@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="415.0" prefWidth="238.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.ControllerOfCar">
+   <children>
+      <Label layoutX="51.0" layoutY="9.0" prefHeight="45.0" prefWidth="137.0" text="Машина">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="Button_save" layoutX="71.0" layoutY="349.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="95.0" text="Сохранить" />
+      <TextField fx:id="TextField_power" layoutX="45.0" layoutY="85.0" />
+      <TextField fx:id="TextField_maxSpeed" layoutX="45.0" layoutY="157.0" />
+      <TextField fx:id="TextField_numOfSeats" layoutX="45.0" layoutY="245.0" />
+      <Label layoutX="71.0" layoutY="54.0" prefHeight="31.0" prefWidth="95.0" text="Мощность">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="119.0" prefHeight="31.0" prefWidth="191.0" text="Максимальная скорость">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="208.0" prefHeight="31.0" prefWidth="217.0" text="Число мест для пасажиров">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

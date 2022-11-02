@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="12.0.2" class="java.beans.XMLDecoder">
+ <object class="sample.data_type.TypeOfTransport" id="TypeOfTransport0">
+  <void class="sample.data_type.TypeOfTransport" method="getField">
+   <string>transport</string>
+   <void method="set">
+    <object idref="TypeOfTransport0"/>
+    <object class="sample.transport.Car">
+     <void property="maxSpeed">
+      <double>180.0</double>
+     </void>
+     <void property="numOfSeats">
+      <int>4</int>
+     </void>
+     <void property="power">
+      <double>120.0</double>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="nameOfTransport">
+   <string>  Машина</string>
+  </void>
+ </object>
+ <object class="sample.data_type.TypeOfTransport" id="TypeOfTransport1">
+  <void class="sample.data_type.TypeOfTransport" method="getField">
+   <string>transport</string>
+   <void method="set">
+    <object idref="TypeOfTransport1"/>
+    <object class="sample.transport.Taxi">
+     <void property="companyOfTaxi">
+      <string>Яндекс</string>
+     </void>
+     <void property="maxSpeed">
+      <double>120.0</double>
+     </void>
+     <void property="numOfSeats">
+      <int>3</int>
+     </void>
+     <void property="power">
+      <double>130.0</double>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="nameOfTransport">
+   <string> Такси</string>
+  </void>
+ </object>
+ <object class="sample.data_type.TypeOfTransport" id="TypeOfTransport2">
+  <void class="sample.data_type.TypeOfTransport" method="getField">
+   <string>transport</string>
+   <void method="set">
+    <object idref="TypeOfTransport2"/>
+    <object class="sample.transport.Plane">
+     <void property="lengthOfWing">
+      <double>5.0</double>
+     </void>
+     <void property="maxSpeed">
+      <double>950.0</double>
+     </void>
+     <void property="numOfSeats">
+      <int>48</int>
+     </void>
+     <void property="power">
+      <double>2300.0</double>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="nameOfTransport">
+   <string> Самолёт</string>
+  </void>
+ </object>
+</java>
